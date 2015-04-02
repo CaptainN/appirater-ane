@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A6DE0434-4689-4BA5-9F49-FB0DDB4C1A13</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Appirater-ANE</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>45DA0A25EA46C9926B2472CD461366DAFB33FD37</key>
+		<string>https://github.com/CaptainN/appirater-ane.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NativeIOS/Appirater-ANE/Appirater-ANE.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>45DA0A25EA46C9926B2472CD461366DAFB33FD37</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/CaptainN/appirater-ane.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>45DA0A25EA46C9926B2472CD461366DAFB33FD37</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>45DA0A25EA46C9926B2472CD461366DAFB33FD37</string>
+			<key>IDESourceControlWCCName</key>
+			<string>appirater-ane</string>
+		</dict>
+	</array>
+</dict>
+</plist>

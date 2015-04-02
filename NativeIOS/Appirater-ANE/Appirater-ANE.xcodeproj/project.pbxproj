@@ -51,9 +51,9 @@
 		CEE1C51916720E6A002E6959 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = AppiraterLocalizable.strings; sourceTree = "<group>"; };
 		CEE1C51C16720E6A002E6959 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = AppiraterLocalizable.strings; sourceTree = "<group>"; };
 		CEE1C51F16720E6A002E6959 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = AppiraterLocalizable.strings; sourceTree = "<group>"; };
-		CEE1C52016720E80002E6959 /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Appirater.h; path = Appirater-ANE/Appirater.h; sourceTree = "<group>"; };
-		CEE1C52116720E80002E6959 /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Appirater.m; path = Appirater-ANE/Appirater.m; sourceTree = "<group>"; };
-		CEE1C52216720E80002E6959 /* AppiraterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppiraterDelegate.h; path = Appirater-ANE/AppiraterDelegate.h; sourceTree = "<group>"; };
+		CEE1C52016720E80002E6959 /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Appirater.h; path = "Appirater-ANE/Appirater.h"; sourceTree = "<group>"; };
+		CEE1C52116720E80002E6959 /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Appirater.m; path = "Appirater-ANE/Appirater.m"; sourceTree = "<group>"; };
+		CEE1C52216720E80002E6959 /* AppiraterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppiraterDelegate.h; path = "Appirater-ANE/AppiraterDelegate.h"; sourceTree = "<group>"; };
 		CEE1C52616720F9F002E6959 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		CEE1C52816720FA8002E6959 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CEE1C54016723A78002E6959 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -101,7 +101,7 @@
 				CEE1C51A16720E6A002E6959 /* zh-Hans.lproj */,
 				CEE1C51D16720E6A002E6959 /* zh-Hant.lproj */,
 				CEE1C4DD16720D64002E6959 /* Classes */,
-				CEE1C4CF16720229002E6959 /* Appirater */,
+				CEE1C4CF16720229002E6959 /* Appirater-ANE */,
 				CEE1C4B016720229002E6959 /* Frameworks */,
 				CEE1C4AF16720229002E6959 /* Products */,
 			);
@@ -126,7 +126,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CEE1C4CF16720229002E6959 /* Appirater */ = {
+		CEE1C4CF16720229002E6959 /* Appirater-ANE */ = {
 			isa = PBXGroup;
 			children = (
 				CEE1C4D016720229002E6959 /* Supporting Files */,
@@ -136,7 +136,7 @@
 				CE95725B1673BEF900CB4015 /* AppiraterNotifier.h */,
 				CE95725C1673BEF900CB4015 /* AppiraterNotifier.m */,
 			);
-			path = Appirater-ANE;
+			path = "Appirater-ANE";
 			sourceTree = "<group>";
 		};
 		CEE1C4D016720229002E6959 /* Supporting Files */ = {
@@ -164,7 +164,7 @@
 				CEE1C4DF16720E6A002E6959 /* AppiraterLocalizable.strings */,
 			);
 			name = ca.lproj;
-			path = Appirater-ANE/ca.lproj;
+			path = "Appirater-ANE/ca.lproj";
 			sourceTree = "<group>";
 		};
 		CEE1C4E116720E6A002E6959 /* cs.lproj */ = {
@@ -173,7 +173,7 @@
 				CEE1C4E216720E6A002E6959 /* AppiraterLocalizable.strings */,
 			);
 			name = cs.lproj;
-			path = Appirater-ANE/cs.lproj;
+			path = "Appirater-ANE/cs.lproj";
 			sourceTree = "<group>";
 		};
 		CEE1C4E416720E6A002E6959 /* da.lproj */ = {
@@ -182,7 +182,7 @@
 				CEE1C4E516720E6A002E6959 /* AppiraterLocalizable.strings */,
 			);
 			name = da.lproj;
-			path = Appirater-ANE/da.lproj;
+			path = "Appirater-ANE/da.lproj";
 			sourceTree = "<group>";
 		};
 		CEE1C4E716720E6A002E6959 /* de.lproj */ = {
@@ -191,7 +191,7 @@
 				CEE1C4E816720E6A002E6959 /* AppiraterLocalizable.strings */,
 			);
 			name = de.lproj;
-			path = Appirater-ANE/de.lproj;
+			path = "Appirater-ANE/de.lproj";
 			sourceTree = "<group>";
 		};
 		CEE1C4EA16720E6A002E6959 /* en.lproj */ = {
@@ -200,7 +200,7 @@
 				CEE1C4EB16720E6A002E6959 /* AppiraterLocalizable.strings */,
 			);
 			name = en.lproj;
-			path = Appirater-ANE/en.lproj;
+			path = "Appirater-ANE/en.lproj";
 			sourceTree = "<group>";
 		};
 		CEE1C4ED16720E6A002E6959 /* es.lproj */ = {
@@ -209,7 +209,7 @@
 				CEE1C4EE16720E6A002E6959 /* AppiraterLocalizable.strings */,
 			);
 			name = es.lproj;
-			path = Appirater-ANE/es.lproj;
+			path = "Appirater-ANE/es.lproj";
 			sourceTree = "<group>";
 		};
 		CEE1C4F016720E6A002E6959 /* fi.lproj */ = {
@@ -218,7 +218,7 @@
 				CEE1C4F116720E6A002E6959 /* AppiraterLocalizable.strings */,
 			);
 			name = fi.lproj;
-			path = Appirater-ANE/fi.lproj;
+			path = "Appirater-ANE/fi.lproj";
 			sourceTree = "<group>";
 		};
 		CEE1C4F316720E6A002E6959 /* fr.lproj */ = {
@@ -227,7 +227,7 @@
 				CEE1C4F416720E6A002E6959 /* AppiraterLocalizable.strings */,
 			);
 			name = fr.lproj;
-			path = Appirater-ANE/fr.lproj;
+			path = "Appirater-ANE/fr.lproj";
 			sourceTree = "<group>";
 		};
 		CEE1C4F616720E6A002E6959 /* he.lproj */ = {
@@ -236,7 +236,7 @@
 				CEE1C4F716720E6A002E6959 /* AppiraterLocalizable.strings */,
 			);
 			name = he.lproj;
-			path = Appirater-ANE/he.lproj;
+			path = "Appirater-ANE/he.lproj";
 			sourceTree = "<group>";
 		};
 		CEE1C4F916720E6A002E6959 /* hu.lproj */ = {
@@ -245,7 +245,7 @@
 				CEE1C4FA16720E6A002E6959 /* AppiraterLocalizable.strings */,
 			);
 			name = hu.lproj;
-			path = Appirater-ANE/hu.lproj;
+			path = "Appirater-ANE/hu.lproj";
 			sourceTree = "<group>";
 		};
 		CEE1C4FC16720E6A002E6959 /* it.lproj */ = {
@@ -254,7 +254,7 @@
 				CEE1C4FD16720E6A002E6959 /* AppiraterLocalizable.strings */,
 			);
 			name = it.lproj;
-			path = Appirater-ANE/it.lproj;
+			path = "Appirater-ANE/it.lproj";
 			sourceTree = "<group>";
 		};
 		CEE1C4FF16720E6A002E6959 /* ja.lproj */ = {
@@ -263,7 +263,7 @@
 				CEE1C50016720E6A002E6959 /* AppiraterLocalizable.strings */,
 			);
 			name = ja.lproj;
-			path = Appirater-ANE/ja.lproj;
+			path = "Appirater-ANE/ja.lproj";
 			sourceTree = "<group>";
 		};
 		CEE1C50216720E6A002E6959 /* ko.lproj */ = {
@@ -272,7 +272,7 @@
 				CEE1C50316720E6A002E6959 /* AppiraterLocalizable.strings */,
 			);
 			name = ko.lproj;
-			path = Appirater-ANE/ko.lproj;
+			path = "Appirater-ANE/ko.lproj";
 			sourceTree = "<group>";
 		};
 		CEE1C50516720E6A002E6959 /* nb.lproj */ = {
@@ -281,7 +281,7 @@
 				CEE1C50616720E6A002E6959 /* AppiraterLocalizable.strings */,
 			);
 			name = nb.lproj;
-			path = Appirater-ANE/nb.lproj;
+			path = "Appirater-ANE/nb.lproj";
 			sourceTree = "<group>";
 		};
 		CEE1C50816720E6A002E6959 /* nl.lproj */ = {
@@ -290,7 +290,7 @@
 				CEE1C50916720E6A002E6959 /* AppiraterLocalizable.strings */,
 			);
 			name = nl.lproj;
-			path = Appirater-ANE/nl.lproj;
+			path = "Appirater-ANE/nl.lproj";
 			sourceTree = "<group>";
 		};
 		CEE1C50B16720E6A002E6959 /* pl.lproj */ = {
@@ -299,7 +299,7 @@
 				CEE1C50C16720E6A002E6959 /* AppiraterLocalizable.strings */,
 			);
 			name = pl.lproj;
-			path = Appirater-ANE/pl.lproj;
+			path = "Appirater-ANE/pl.lproj";
 			sourceTree = "<group>";
 		};
 		CEE1C50E16720E6A002E6959 /* pt.lproj */ = {
@@ -308,7 +308,7 @@
 				CEE1C50F16720E6A002E6959 /* AppiraterLocalizable.strings */,
 			);
 			name = pt.lproj;
-			path = Appirater-ANE/pt.lproj;
+			path = "Appirater-ANE/pt.lproj";
 			sourceTree = "<group>";
 		};
 		CEE1C51116720E6A002E6959 /* ru.lproj */ = {
@@ -317,7 +317,7 @@
 				CEE1C51216720E6A002E6959 /* AppiraterLocalizable.strings */,
 			);
 			name = ru.lproj;
-			path = Appirater-ANE/ru.lproj;
+			path = "Appirater-ANE/ru.lproj";
 			sourceTree = "<group>";
 		};
 		CEE1C51416720E6A002E6959 /* sk.lproj */ = {
@@ -326,7 +326,7 @@
 				CEE1C51516720E6A002E6959 /* AppiraterLocalizable.strings */,
 			);
 			name = sk.lproj;
-			path = Appirater-ANE/sk.lproj;
+			path = "Appirater-ANE/sk.lproj";
 			sourceTree = "<group>";
 		};
 		CEE1C51716720E6A002E6959 /* sv.lproj */ = {
@@ -335,7 +335,7 @@
 				CEE1C51816720E6A002E6959 /* AppiraterLocalizable.strings */,
 			);
 			name = sv.lproj;
-			path = Appirater-ANE/sv.lproj;
+			path = "Appirater-ANE/sv.lproj";
 			sourceTree = "<group>";
 		};
 		CEE1C51A16720E6A002E6959 /* zh-Hans.lproj */ = {
@@ -386,7 +386,7 @@
 			dependencies = (
 			);
 			name = "Appirater-ANE";
-			productName = Appirater-ANE;
+			productName = "Appirater-ANE";
 			productReference = CEE1C4AE16720229002E6959 /* libAppirater-ANE.a */;
 			productType = "com.apple.product-type.library.static";
 		};
@@ -633,7 +633,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -660,7 +660,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
